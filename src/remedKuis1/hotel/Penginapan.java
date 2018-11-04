@@ -41,7 +41,7 @@ public class Penginapan {
     // output
     public String info(){
         String info = "";
-        info += "No. Kamar                      : "+noKamar+"\n";
+        info += "No. Kamar                          : "+noKamar+"\n";
         if(this.penyewa != null){
             info += "Customer               : \n"+penyewa.info()+"\n";
         }
